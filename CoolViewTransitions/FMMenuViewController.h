@@ -1,5 +1,5 @@
 //
-//  FMViewController.h
+//  FMMenuViewController.h
 //  CoolViewTransitions
 //
 //  Created by Fredrick Myers on 11/12/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FMViewController : UIViewController <UIViewControllerTransitioningDelegate>
+@interface FMMenuViewController : UIViewController
 
 @end

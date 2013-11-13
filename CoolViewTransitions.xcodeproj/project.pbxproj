@@ -21,6 +21,9 @@
 		D3337D5C1832CE380011187B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3337D3E1832CE370011187B /* UIKit.framework */; };
 		D3337D641832CE380011187B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3337D621832CE380011187B /* InfoPlist.strings */; };
 		D3337D661832CE380011187B /* CoolViewTransitionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3337D651832CE380011187B /* CoolViewTransitionsTests.m */; };
+		D3337D711832D0B00011187B /* FMMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3337D701832D0B00011187B /* FMMenuViewController.m */; };
+		D3337D741832D8B90011187B /* FMAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D3337D731832D8B90011187B /* FMAnimator.m */; };
+		D3D0D5A31833A58200F8B618 /* FMDynamicAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D0D5A21833A58200F8B618 /* FMDynamicAnimator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		D3337D611832CE380011187B /* CoolViewTransitionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoolViewTransitionsTests-Info.plist"; sourceTree = "<group>"; };
 		D3337D631832CE380011187B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D3337D651832CE380011187B /* CoolViewTransitionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolViewTransitionsTests.m; sourceTree = "<group>"; };
+		D3337D6F1832D0B00011187B /* FMMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMenuViewController.h; sourceTree = "<group>"; };
+		D3337D701832D0B00011187B /* FMMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMenuViewController.m; sourceTree = "<group>"; };
+		D3337D721832D8B90011187B /* FMAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMAnimator.h; sourceTree = "<group>"; };
+		D3337D731832D8B90011187B /* FMAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMAnimator.m; sourceTree = "<group>"; };
+		D3D0D5A11833A58200F8B618 /* FMDynamicAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDynamicAnimator.h; sourceTree = "<group>"; };
+		D3D0D5A21833A58200F8B618 /* FMDynamicAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDynamicAnimator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +128,12 @@
 				D3337D501832CE380011187B /* FMViewController.m */,
 				D3337D521832CE380011187B /* Images.xcassets */,
 				D3337D411832CE370011187B /* Supporting Files */,
+				D3337D6F1832D0B00011187B /* FMMenuViewController.h */,
+				D3337D701832D0B00011187B /* FMMenuViewController.m */,
+				D3337D721832D8B90011187B /* FMAnimator.h */,
+				D3337D731832D8B90011187B /* FMAnimator.m */,
+				D3D0D5A11833A58200F8B618 /* FMDynamicAnimator.h */,
+				D3D0D5A21833A58200F8B618 /* FMDynamicAnimator.m */,
 			);
 			path = CoolViewTransitions;
 			sourceTree = "<group>";
@@ -250,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3337D711832D0B00011187B /* FMMenuViewController.m in Sources */,
+				D3D0D5A31833A58200F8B618 /* FMDynamicAnimator.m in Sources */,
 				D3337D471832CE370011187B /* main.m in Sources */,
 				D3337D4B1832CE380011187B /* FMAppDelegate.m in Sources */,
+				D3337D741832D8B90011187B /* FMAnimator.m in Sources */,
 				D3337D511832CE380011187B /* FMViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +479,7 @@
 				D3337D6B1832CE380011187B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3337D6C1832CE380011187B /* Build configuration list for PBXNativeTarget "CoolViewTransitionsTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +488,7 @@
 				D3337D6E1832CE380011187B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
